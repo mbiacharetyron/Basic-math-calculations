@@ -56,14 +56,4 @@ elif select == '5':
 
 else:
         print("Invalid Input")
-    
-
-def again():
-    calc_again = input("Do you want to Calculate again? \n Please type Y for YES or N for NO")
-
-    if calc_again.upper() == 'Y':
-        select()
-    elif calc_again.upper() == 'N':
-        print("See you Later.")
-    else:
-        again()
+   
